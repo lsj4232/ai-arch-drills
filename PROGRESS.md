@@ -9,6 +9,7 @@
 |---|---|---|---|---|---|
 | 1 | Matrix-Vector Dot Product | Linear Algebra | easy | 2026-07-08 | |
 | 2 | Transpose of a Matrix | Linear Algebra | easy | 2026-07-08 | |
+| 3 | Reshape Matrix | Linear Algebra | easy | 2026-07-08 | |
 
 ## Track 2 — srush 퍼즐
 
