@@ -7,10 +7,17 @@ AI 아키텍처를 바닥부터 구현하며 검증하는 학습 기록. LeetCod
 ## 로드맵 (3트랙, 순차 진행)
 
 ### Track 1 — Deep-ML (워밍업, 문제 단위 반복)
-- 플랫폼: https://www.deep-ml.com (온라인 채점)
+- 플랫폼: https://www.deep-ml.com (온라인 채점) · 문제 원본: [Open-Deep-ML/DML-OpenProblem](https://github.com/Open-Deep-ML/DML-OpenProblem) (165문제, `_external/`에 클론)
 - numpy만으로 attention, layernorm, backprop, optimizer 등 구현
 - Linear Algebra → Deep Learning → LLM 카테고리 순
 - 풀이 저장: `01_deep_ml/pNNN_문제명.py` (헤더에 문제 링크·카테고리·난이도)
+- **로컬 채점기** `tools/dml.py`:
+  ```
+  python tools/dml.py list [카테고리]   # 문제 목록
+  python tools/dml.py show 1           # 문제 보기
+  python tools/dml.py grade 1 01_deep_ml/p001_matrix_dot_vector.py   # 채점
+  python tools/dml.py learn 1          # 해설 (정답 후에만)
+  ```
 
 ### Track 2 — srush 퍼즐 시리즈 (아키텍처 이해 검증)
 | 순서 | 퍼즐 | 폴더 | 내용 |
