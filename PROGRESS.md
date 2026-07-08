@@ -8,6 +8,7 @@
 | # | 문제 | 카테고리 | 난이도 | 완료일 | 브라우저 제출 |
 |---|---|---|---|---|---|
 | 1 | Matrix-Vector Dot Product | Linear Algebra | easy | 2026-07-08 | |
+| 2 | Transpose of a Matrix | Linear Algebra | easy | 2026-07-08 | |
 
 ## Track 2 — srush 퍼즐
 
