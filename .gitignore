@@ -1,0 +1,19 @@
+# 외부 원본 repo 클론 (남의 코드는 커밋하지 않음)
+_external/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 대용량 데이터/모델
+*.bin
+*.pt
+*.ckpt
+data/
+
+# OS/에디터
+.DS_Store
+Thumbs.db
