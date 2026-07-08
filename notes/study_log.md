@@ -13,7 +13,7 @@
 ## 2026-07-08 (수) · 셋업
 **진행**: 프로젝트 스캐폴딩 완료. 폴더 구조 생성, srush 퍼즐 5종 + CS336 assignment1 + DML-OpenProblem(Deep-ML 문제 원본 165개) 클론(`_external/`), GitHub repo 생성·푸시. 로컬 채점기 `tools/dml.py` 작성, 공식 solution으로 3/3 통과 검증. Tensor Puzzles 하네스(`lib.py` make_test/run_test)도 로컬 실행 확인 (풀이 함수에 torchtyping 시그니처 필수).
 
-**다음 세션 시작점**: **Track 1 Deep-ML, Problem 1 (Matrix-Vector Dot Product)** — `python tools/dml.py show 1`로 문제 표시 → 사용자 풀이 입력 → `grade 1`로 채점. 이후 Linear Algebra 카테고리 easy 순서대로 (`python tools/dml.py list "Linear Algebra"` 참고).
+**다음 세션 시작점**: **Track 1 Deep-ML, Problem 2 (Transpose of a Matrix)** — Problem 1은 2026-07-08 완료(3/3). `python tools/dml.py show 2`로 문제 표시 → 사용자 풀이 입력 → `grade 2`로 채점. 이후 Linear Algebra 카테고리 easy 순서대로 (`python tools/dml.py list "Linear Algebra"` 참고).
 
 **세션 운영 방식**: 사용자가 채팅에 풀이 코드 입력 → Claude가 실행·테스트 검증 → 정답이면 `01_deep_ml/pNNN_문제명.py`로 저장 → 세션 끝에 이 파일 + PROGRESS.md 갱신 후 commit & push. Claude는 대신 풀지 않고 오답 시 단계별 힌트만.
 
