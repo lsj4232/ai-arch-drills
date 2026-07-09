@@ -1,5 +1,17 @@
 # 학습 일지
 
+## 2026-07-09 (목) · Track 1 Deep-ML · Linear Algebra easy 4~5
+**진행**: Problem 4(Mean by Row/Column, 2/2) · 5(Scalar Multiplication, 2/2, 시도 4회) 완료. 풀이는 `01_deep_ml/p004~p005_*.py`.
+
+**다음 세션 시작점**: **Problem 27 (Transformation Matrix from Basis B to C)** — `python tools/dml.py show 27` → 풀이 입력 → `grade 27`. 문제는 이미 제시받은 상태였음. 개념 힌트 받음: B좌표→표준좌표는 B 곱, 표준→C좌표는 C 역행렬(`np.linalg.inv`) 곱, 행렬곱은 `@`, 출력은 소수 4자리 반올림(`np.round(...,4)`). Linear Algebra easy 5/15 완료, 이후 35 → 65 → ... 순.
+
+**배운 것 3줄**
+1. numpy 계산 결과 반환은 무조건 `.tolist()` — 채점이 print 문자열 비교라 numpy 스타일 `[4. 5. 6.]`은 무조건 탈락
+2. 메서드 호출(`.`)이 산술연산자보다 우선 결합 → `(np.array(m)*s).tolist()`처럼 식 전체를 괄호로 감싸고 붙일 것
+3. 파이썬 리스트 `* 정수`는 원소별 곱이 아니라 **반복**(`[1,2]*2=[1,2,1,2]`, `*-1`은 빈 리스트) — 원소별 연산은 numpy 배열 상태에서만
+
+**반복 실수 패턴 (교정 대상)**: `.tolist()` 누락이 p004에서 지적받고 p005에서 재발(누적 2회) — "numpy 반환 직전 tolist" 반사화 필요. 연산자 우선순위로 tolist 위치 오류 2회.
+
 ## 2026-07-08 (수) · Track 1 Deep-ML · Linear Algebra easy 1~3
 **진행**: Problem 1(Matrix-Vector Dot Product, 3/3) · 2(Transpose, 2/2) · 3(Reshape, 4/4) 완료 — 오늘 목표 3문제 달성. 풀이는 `01_deep_ml/p001~p003_*.py`.
 
