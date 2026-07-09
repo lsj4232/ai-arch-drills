@@ -11,6 +11,7 @@
 | 2 | Transpose of a Matrix | Linear Algebra | easy | 2026-07-08 | |
 | 3 | Reshape Matrix | Linear Algebra | easy | 2026-07-08 | |
 | 4 | Calculate Mean by Row or Column | Linear Algebra | easy | 2026-07-09 | |
+| 5 | Scalar Multiplication of a Matrix | Linear Algebra | easy | 2026-07-09 | |
 
 ## Track 2 — srush 퍼즐
 
