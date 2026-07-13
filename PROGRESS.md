@@ -12,6 +12,7 @@
 | 3 | Reshape Matrix | Linear Algebra | easy | 2026-07-08 | |
 | 4 | Calculate Mean by Row or Column | Linear Algebra | easy | 2026-07-09 | |
 | 5 | Scalar Multiplication of a Matrix | Linear Algebra | easy | 2026-07-09 | |
+| 27 | Transformation Matrix from Basis B to C | Linear Algebra | easy | 2026-07-13 | |
 
 ## Track 2 — srush 퍼즐
 
